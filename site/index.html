@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="en-tete.css">
+	<link rel="stylesheet" type="text/css" href="pied-de-page.css">
+</head>
+	
+<body>
+	
+	<header>
+		<div id="tete_haut">
+			<a href="index.html"><img id="logo" src="Images/logo_DC_2.jpg" alt="logo"></a>	 
+		 	<a href="index.html"><h1>Double Cursus</h1></a>
+		</div>
+
+		<nav id="tete_bas">
+			<ul>
+			    <li id="accueil" ><a class="rubriques" href="index.html" >ACCUEIL</a></li>
+			    <li ><a class="rubriques" href="actualités.html"  >ACTUALITES</a></li>
+			    <li ><a class="rubriques" href="contact.html">CONTACT</a></li>
+			    <li ><a class="rubriques" href="calendrier.html">CALENDRIER</a></li>
+			    <li ><a class="rubriques" href="forum.html">FORUM</a></li>
+			    <li id="connexion">
+			    	<a class="rubriques" href="login.html">Se connecter</a>
+			    </li>
+			</ul>
+		</nav>
+	</header>
+
+	<div id="corps">
+
+		<div id="diapo">
+	       <figure>
+	       		<img src="Images/diapo2.jpg" alt="" width="400" height="300" />	
+	            <img src="Images/diapo5.jpg" alt="" width="400" height="300" />	
+	            <img src="Images/diapo3.jpg" alt="" width="400" height="300" />
+	            <img src="Images/diapo4.jpg" alt="" width="400" height="300" />
+	            <img src="Images/diapo2.jpg" alt="" width="400" height="300" />
+	        </figure>           
+		</div>
+			
+		<div id="principale">
+			<h1 id="texte_debut">Bienvenue sur le site de l'association Double Cursus</h1>
+			<hr>
+			<a href="ecoresponsable.html"><img src="Images/eco_responsable.jpg"></a>
+			<a id="eco_resp_a" href="ecoresponsable.html"><p id="eco_resp">Double Cursus travaille pour l'économie responsable</p></a>
+			<a id="eco_resp_lien" href="ecoresponsable.html">>  Regardez comment</a>
+			<hr>
+			<h2 id="titre_donner">Donnez un meuble, nous passons le chercher</h2>
+			<div id="donner">
+				<h3>Faire un don</h3>
+				<div id="corps_donner">
+
+					<img src="Images/logo_DC_1.png "	>
+
+					<label class="type_meuble">Type de meuble</label><br/>
+					<select class="type_meuble">
+						<option>armoire</option>
+						<option>bibliothèque</option>
+						<option>meuble verrier</option>
+						<option>buffet</option>
+						<option>bureau</option>
+						<option>commode</option>
+						<option>étagère</option>
+						<option>chaise/banc</option>
+						<option>canapé</option>
+						<option>lit</option>
+						<option>table</option>
+						<option>autre</option>
+					</select><br/>
+
+					<label class="rue">Rue (avec numéro)</label><br>
+					<input type="text" class="rue" id="rue_input"><br>
+
+					<label class="commune">Commune</label><br/>
+					<input type="text" class="commune"/><br/>
+
+					<label class="tel">Numéro de téléphone</label><label class="email" id="email_label">Adresse mail</label><br/>
+					<input type="tel" class="tel"/><input type="email" class="email"/><br/>
+
+					<label id="description_titre">Description du don</label><br/>
+					<textarea id="description"></textarea><br/>
+
+					<button id="bouton_donner">Donner</button>
+
+				</div>
+			</div>
+		</div>	
+
+		<div id="quelques_meubles">
+
+			<h2>
+				Quelques meubles
+			</h2>
+
+			<div class="section_meubles" id="meuble1">
+				<img src="Images/meuble21.jpg" width="100" height="100"></a>
+				<p>Petit meuble TV collection Océane avec portes coulissantes et une grande niche</p>
+			</div>
+
+			<div class="section_meubles" id="meuble2">
+				<img src="Images/meuble19.jpg" width="100" height="100"></a>
+				<p>Table basse de salon ronde accompagnée de deux tabourets</p>
+			</div>
+
+			<div class="section_meubles" id="meuble3">
+				<img src="Images/meuble20.jpg" width="100" height="100"></a>
+				<p>Meuble TV HI-FI d'angle en chêne massif Edgar</p>
+			</div>
+
+			<div class="section_meubles" id="meuble4">
+				<img src="Images/meuble22.jpg" width="100" height="100"></a>
+				<p>Chaise de salle à manger contemporaine</p>
+			</div>
+
+			<div class="section_meubles" id="meuble5">
+				<img src="Images/meuble23.jpg" width="100" height="100"></a>
+				<p>Lit d'une place en bois avec tirroir</p>
+			</div>
+
+		</div>
+
+		<footer>
+			<p id="titre_pied">Double Cursus / Site de don de meubles</p>
+
+			<div id="pied_gauche">
+				<h3>CONTACTEZ - NOUS</h3><br>
+				<p>+33 1 02 03 04 05<br>+33 6 07 08 09 10<br>Lu - Ve    08h00 - 20h00<br>Samedi   08h00 - 18h00<br><br>doublecursusiutv@gmail.com</p>
+			</div>
+			
+			<div id="pied_centre">
+				<h3>INFORMATIONS</h3><br>
+				<div id="pied_centre_gauche">
+					<a href="aide.html">Aide</a><br>
+					<a href="mon_compte.html">Mon compte</a><br>
+					<a href="protection_donnees.html">Protection des données</a><br>
+					<a href="recuperation.html">Récupération des meubles</a>
+				</div>
+				<div id="pied_centre_droite">
+					<a href="ecoresponsable.html">Développement durable</a><br>
+					<a href="qui_sommes_nous.html">Qui sommes nous?</a><br>	
+					<a href="politique.html">Notre politique</a><br>
+					<a href="contact.html">Nous écrire</a>
+				</div>
+			</div>
+
+			<div id="pied_droite">
+				<h3>SUIVEZ - NOUS</h3><br>
+				<a href="https://www.facebook.com/Double-Cursus-321584038449667"><img src="Images/logo_fb.png"><p>Facebook</p></a><br>
+				<a href="https://twitter.com/CursusDouble"><img src="Images/logo_twitter.png"><p>Twitter</p></a><br>
+				<a href="https://plus.google.com/u/2/communities/100810173044609926656"><img src="Images/logo_google+.png"><p>Google +</p></a>
+			</div>
+		</footer>
+
+	</div>
+	
+</body>
+</html>

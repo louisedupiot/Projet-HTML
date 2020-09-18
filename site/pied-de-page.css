@@ -1,0 +1,124 @@
+footer
+{
+	width:100%;
+	height:230px;
+	background-color: #444;
+	position: relative;
+	bottom: 0;
+}
+
+footer p
+{
+	color:white;
+	margin:20px;
+}
+
+footer div
+{
+	color:white;
+	height:150px;
+	padding: 0px;
+	float:left;
+}
+
+footer div p, footer div h3
+{
+	padding: 0px;
+	margin:0px;
+}
+
+footer a
+{
+	text-decoration: none;
+}
+
+footer h3
+{
+	color:orange;
+}
+
+#titre_pied
+{
+	color:lightblue;
+}
+
+
+
+/* PIED DROITE */
+
+#pied_droite img
+{
+	width: 30px;
+	height: 30px;
+	margin: 0px;
+	margin-right: 10px;
+	padding: 0px;
+	float: left;
+}
+
+#pied_droite p
+{
+	margin-top:3px;
+}
+
+#pied_droite
+{
+	float:right;
+	width: 15%;
+	margin-right:5%;
+}
+
+
+
+
+/* PIED GAUCHE */
+
+#pied_gauche
+{
+	text-align: center;
+	margin-left:5%;
+	width:20%;
+}
+
+
+
+
+/* PIED CENTRE */
+
+#pied_centre .droite
+{
+	float:right;
+	text-align: center;
+}
+
+#pied_centre .gauche
+{
+	display: inline;
+}
+
+#pied_centre_gauche
+{
+	width:45%;
+	height: 70%;
+	margin-left: 0px;
+}
+
+#pied_centre_droite
+{
+	width:45%;
+	height: 70%;
+	float: right;
+}
+
+#pied_centre_gauche a, #pied_centre_droite 	a
+{
+	color:white;
+	text-decoration: none;
+	margin-top: 5px;
+}
+
+#pied_centre
+{
+	width: 35%;
+	margin-left: 10%;
+}

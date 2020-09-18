@@ -1,0 +1,81 @@
+header
+{
+	z-index: 1;
+	width: 100%;
+	position: fixed;
+}
+
+#tete_haut
+{ 	
+	background-color:lightblue;
+	height:60px;
+	width: 100%;
+}
+
+#logo
+{
+	height:90px;
+	width:90px;
+	margin-left:5%;
+}
+
+#tete_bas
+{
+	background-color:#444;
+	height:40px;
+	width: 100%;
+	padding:0px;
+}
+
+#tete_haut h1
+{
+	margin-top: -70px;
+	margin-left: 15%;
+	color:#196583;
+	font-family: "Arial", sans-serif;	
+}
+
+#tete_haut a
+{
+	text-decoration: none;
+}
+
+#tete_bas li
+{
+	margin-top: 15px;
+	display: inline-block;
+	font-family: "Arial", sans-serif;
+}
+
+#accueil
+{
+	margin-left:14%;
+}
+
+#connexion
+{
+	float:right;
+	margin-right:5%;
+}
+ 
+.rubriques
+{
+  outline: none;
+  text-decoration: none;
+  padding: 7px 20px 7px;
+}
+
+.rubriques:link
+{
+  color: #FFF;
+}
+
+.rubriques:visited
+{
+  color: #FFF;
+}
+
+.rubriques:hover 
+{    
+  background: #AAA;
+}

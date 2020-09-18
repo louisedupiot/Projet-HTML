@@ -1,0 +1,99 @@
+*
+{
+	padding: 0px;
+	margin:0px;
+}
+
+#corps
+{
+	padding-top:100px;
+	margin-left:5%;
+	width:90%;
+	height:1000px;
+	position: relative;
+	background-color: #E6F4F5;
+	
+}
+
+
+body
+{
+	background-color: lightgray;
+}	
+	
+
+#texteconta1
+{
+	padding-top: 80px;
+	font-size: 28px;
+	text-align: center;
+	color: orange;
+	font-family: "Arial", sans-serif;
+}
+
+#texteconta2
+{
+	padding-top: 30px;
+	font-size: 35px;
+	text-align: center;
+	color: black;
+	font-family: "Arial", sans-serif;	
+}
+
+.bouton-valider
+{ 
+padding: 5px 10px 5px  10px;
+font-family: "Arial", sans-serif;
+background-color: #E6F4F5;
+font-size: 35px;
+border-color: orange;
+color:black;
+}
+
+.bouton
+{
+padding-top: 10px;
+margin-left: 33%;
+}
+.sinon
+{
+	text-align: center;
+	font-family: "Arial", sans-serif;
+	color:black;
+}
+
+.info, .info2
+{ 
+	font-size: 25px; 
+	font-family: "Arial", sans-serif;
+	color:black; 
+	text-align: center;
+	margin-top: 30px;
+}
+
+.infos
+{
+	border-color: orange;
+	color:orange;
+}
+
+#contact_email
+{
+	border-color: orange;
+	width: 50%;
+	height: 50px;
+	padding:7px;
+	font-size: 37px;
+	color: orange;
+	background-color:white;	
+}
+
+.infos textarea
+{
+	border-color: orange;
+	padding: 10px;
+	width:50%; 
+	height:200px;
+	font-size: 30px;
+	color:orange;
+}

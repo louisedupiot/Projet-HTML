@@ -1,0 +1,332 @@
+*
+{
+	padding: 0px;
+	margin:0px;
+}
+
+
+body
+{
+	background-color:lightgray;
+}
+
+
+
+/* CORPS */
+
+#corps
+{
+	margin-left:5%;
+	width:90%;
+	height:1185px;
+	background-color:white;
+	position: relative;
+	padding-top: 100px;
+}
+
+
+
+/* DIAPO */
+
+#diapo figure img
+{
+	float:left;
+	width:20%;
+	height:20%;
+}
+
+#diapo figure
+{
+	position:relative;
+	width: 500%;
+	height: 500%;
+	-webkit-animation: 20s sliderLeft infinite;
+}
+
+#diapo
+{
+	max-width: 100%;
+	overflow: hidden;
+	margin:0 auto;
+}
+
+@-webkit-keyframes sliderLeft
+{
+	0%{left:0%;}
+	20%{left:0%;}
+	25%{left:-100%;}
+	45%{left:-100%;}
+	50%{left:-200%;}
+	70%{left:-200%;}
+	75%{left:-300%;}
+	95%{left:-300%;}
+	100%{left:-400%;}
+}
+
+
+
+
+/* PARTIE DE GAUCHE DE LA PAGE */
+
+#principale
+{
+	margin-top: 40px;
+	margin-left: 60px;
+	width:55%;
+	float: left;
+}
+
+#principale #texte_debut
+{
+	font-size: 24px;
+	color:#196583;
+	font-family: "Arial", sans-serif;
+}
+
+#principale img
+{
+	padding-top: 20px;
+	width: 250px;
+	height: 125px;
+	float: left;
+	margin-right: 20px;
+}
+
+#principale #eco_resp
+{
+	color:#82b400;
+	font-size: 20px;
+	font-family: "Arial", sans-serif;	
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#eco_resp_a
+{
+	text-decoration: none;
+}
+
+#principale #eco_resp_lien
+{
+	font-size: 20px;
+	color:gray;
+	font-family: "Arial", sans-serif;	
+	text-decoration: none;
+}
+
+#principale hr
+{
+	margin-top: 40px;
+	width: 95%;
+}
+
+#principale #donner
+{
+	background-color:lightblue;
+	width:95%;
+	height:380px;
+	border-radius: 10px;
+	border:5px solid #1b78b8;
+}
+
+#principale #donner h3
+{
+	border-radius: 0px;
+	background-color: #1b78b8;
+	color:white;
+	font-family: "Arial", sans-serif;	
+	text-align: center;
+	height: 30px;
+	padding-top:5px;
+}
+
+#principale #donner #corps_donner
+{
+	padding-left:30px;
+	padding-top: 20px;
+}
+
+#principale #donner #corps_donner img
+{
+	float: right;	
+	width: 180px;
+	height: 180px;
+	padding: 0px;
+	margin-top: -20px;
+}
+
+#principale #donner #corps_donner .type_meuble
+{
+	margin-right: 10px;
+	margin-bottom: 20px;
+	margin-top: 2px;
+	font-family: "Arial", sans-serif;	
+}
+
+#principale #donner #corps_donner .commune
+{
+	margin-bottom: 20px;
+	margin-right: 10px;
+	font-family: "Arial", sans-serif;	
+}
+
+#principale #donner #corps_donner .email
+{
+	margin-bottom: 20px;
+	margin-left: 5%;
+	font-family: "Arial", sans-serif;	
+}
+
+#principale #donner #corps_donner .tel
+{
+	margin-bottom: 20px;
+	margin-right: 10px;
+	font-family: "Arial", sans-serif;	
+}
+
+#principale #donner #corps_donner #description
+{
+	width: 75%;
+	height: 50px;
+	margin-bottom: 20px;
+	font-family: "Arial", sans-serif;	
+}
+
+#principale #donner #corps_donner #description_titre
+{
+	font-family: "Arial", sans-serif;
+}
+
+#principale #donner #corps_donner #rue_input
+{
+	margin-bottom:20px;
+}
+
+#principale #donner #corps_donner .rue
+{
+	font-family: "Arial", sans-serif;
+}
+
+#principale #donner #corps_donner #email_label
+{
+	margin-left: 7.5%;
+}
+
+
+#bouton_donner {
+    border: 0;
+   	float:right;
+	margin-right: 25px;
+	margin-top: -65px;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    font-family: "Arial", sans-serif;	
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: #196583;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+#bouton_donner:hover {
+    background-color: #195573;
+}
+
+#bouton_donner:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+#titre_donner
+{
+	margin-top: 20px;
+	margin-bottom:10px;
+	font-family: "Arial", sans-serif;	
+	margin-left:7%;
+	color:#196583;
+}
+
+
+
+/* PARTIE DROITE DE LA PAGE */
+
+#quelques_meubles
+{
+	width: 30%;
+	height: 700px;
+	margin-left: 65%;
+	margin-top: 40px;
+	background-color:white;
+	border-left:solid gray;
+}
+
+#quelques_meubles h2
+{
+	margin-left:20px;
+	color:orange;
+	padding-bottom: 10px;
+	font-family: "Arial", sans-serif;	
+}
+
+#quelques_meubles img
+{
+	margin-bottom: 10px;
+	margin-left: 10px;
+	float: left;
+	margin-right: 20px;
+}
+
+.section_meubles
+{
+	margin-top: 20px;
+	background-color:white;
+	height: 110px;
+	border-bottom: solid gray
+}
+
+#meuble1 p
+{
+	padding-top: 15px;
+	color:#699add;
+	font-family: "Arial", sans-serif;	
+}
+
+#meuble2 p
+{
+	padding-top: 25px;
+	color:#196583;
+	font-family: "Arial", sans-serif;
+}
+
+#meuble3 p
+{
+	padding-top: 30px;
+	color:#699add;
+	font-family: "Arial", sans-serif;	
+}
+
+#meuble4 p
+{
+	padding-top:30px;
+	color:#196583;
+	font-family: "Arial", sans-serif;	
+}
+
+#meuble5 p
+{
+	padding-top:30px;
+	color:#699add;
+	font-family: "Arial", sans-serif;	
+}
+
+#meuble5
+{
+	border:none;
+}

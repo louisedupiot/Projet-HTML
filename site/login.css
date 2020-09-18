@@ -1,0 +1,149 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+body
+{
+	background-color: lightgray;
+}
+
+#corps
+{
+	padding-top:150px;
+	margin-left: 5%;
+	width:90%;
+	background-color: #E6F4F5;
+	height: 800px;
+}
+
+#bloc_connexion h2, #bloc_inscription h2
+{
+	padding-top: 30px;
+	text-align: center;
+	color:#666;
+}
+
+hr
+{
+	margin-bottom: 30px;
+	width:70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#bloc_connexion
+{
+	margin-left: auto;
+	margin-right: auto;
+	height: 300px;
+	width: 70%;
+	background-color: white;
+	border:solid lightgray 1px;
+	border-radius: 10px;
+}
+
+#bloc_inscription
+{
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 350px;
+	width: 70%;
+	background-color: white;
+	border:solid lightgray 1px;
+	border-radius: 10px;
+}
+
+
+#bloc_connexion button a
+{
+	padding: 20px;
+}
+
+#co_fb
+{
+	background-color: #3b5998;
+	padding:10px 6%;
+}
+
+#co_googleplus
+{
+	background-color: #d34836;
+	padding:10px 3%;
+	
+}
+
+#co_googleplus, #co_fb
+{
+	color:white;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.bouton_noir
+{
+	background-color: black;
+	color:white;
+	padding:10px 3%;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+#co_simple
+{
+	float:left;
+	margin-left: 15%;
+	margin-right: 10%;
+	width:30%;
+}
+
+#co_reseaux
+{
+	height: 140px;
+	margin-top: 10px;
+	float: left;
+	width: 30%;
+}
+
+.rect
+{
+	margin-top: 10px;
+}
+
+#email, #mdp
+{
+	height:30px;
+	width:80%;
+	padding-left: 10%;
+}
+
+.case
+{
+	width:44%;
+	height: 30px;
+	padding-left: 2%;
+	margin-bottom: 10px;
+}
+
+#inscri_cases
+{	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#nom, #pseudo, #mdp_inscri, #tel_fixe
+{
+	margin-right: 5.49%;
+}
+
+#inscrire
+{
+	margin-left: 19.7%;
+}
+
+#mdp_inscri
+{
+	margin-bottom: 20px;
+}

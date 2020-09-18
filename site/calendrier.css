@@ -1,0 +1,211 @@
+*
+{
+	padding: 0px;
+	margin:0px;
+}
+
+
+table
+{
+    border-collapse: collapse;
+    font-family: "Arial", sans-serif;
+    margin-bottom: 30px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+td
+{
+	border: 1px solid black;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 14.285%;
+	
+ }
+#titre h2 { 
+	padding-top: 20px;
+	margin-left: 5%;
+	margin-bottom: 20px;
+	font-family: "Microsoft JhengHei UI", sans-serif;
+	color: lightblack;
+	}
+	
+.nom_mois {
+	text-align: center;
+	padding-top: 20px;
+	margin-top: 0px;
+	margin-left: 5%;
+	margin-bottom: 20px;
+	font-family: "Arial", sans-serif;
+	color: black;
+}
+
+#moisactuel {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+}
+
+#jours {
+	font-weight: bold;
+	background-color: #E2E2E2;
+}
+
+#titre {
+	margin-top:0px;
+	margin-left:5%;
+	background-image: url("Images/header.jpg");
+	margin-right:5%;
+	
+}
+#mois {
+	margin-left:5%;
+	width:90%;
+	height: 1700px;
+	position: relative;
+	background-color: #E6F4F5;
+	margin-top: 0px;
+}
+
+.autremois {
+	color: lightgrey;
+	}
+	
+#soireenouvelan a {
+	text-decoration: none;
+	color: grey;
+}
+
+.evenement {
+	background-color: lightblue;
+	}
+
+.datepleine
+{
+	background-color: darkgrey;
+}
+
+#janvier .datepleine a {
+    text-decoration: none;
+    color: white;
+}
+
+.evenement a{
+	text-decoration: none;
+	color: #4A4489;
+}
+
+#legende {
+	height: 100px;
+	}
+
+#legende #bleu {
+	border: 1px solid lightblue;
+	font-family: "Arial", sans-serif;
+	width: 8%;
+	height: 20px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 15%;
+	color: #4A4489;
+	background-color: lightblue;
+	float: left; 
+}
+
+#legende #legendebleue p {
+	text-indent: 20px;
+	font-family: "Arial", sans-serif;
+	
+}
+#legende #legendebleue {
+	padding: 10px;
+}
+#legende #gris {
+	border: 1px solid darkgrey;
+	font-family: "Arial", sans-serif;
+	width: 8%;
+	height: 20px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 15%;
+	margin-bottom: 20px;
+	color: white;
+	background-color: darkgrey;
+
+	float: left; 
+}
+
+#legende #legendegrise p {
+	text-indent: 20px;
+	font-family: "Arial", sans-serif;
+	
+}
+#legende #legendegrise {
+	padding: 10px;
+}
+.rendezvous {
+	margin-left: 15%;
+	margin-top: 30px;
+	width: 70%;
+	background-color: white; 
+	border : 2px solid black;
+	padding-left: 0%;
+}	
+
+.rendezvous .listeevenements {
+	font-weight: bold;
+}
+.rendezvous .dates{
+	margin-left:10%;
+	margin-right:20%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: "Arial", sans-serif;
+	color: #5E5B5B;
+	font-size: 120%;
+	font-weight: bold;
+	}
+	
+.rendezvous p {
+	text-align: justify;	
+	font-size:85%;
+	font-weight: normal;
+	color: black;
+}
+.rendezvous .lieu {
+	text-align: justify;	
+	font-size:85%;
+	font-weight: normal;
+	color: grey;
+}
+.rendezvous .liste {
+	text-align: justify;	
+	font-size:85%;
+	font-weight: normal;
+	color: black;
+}
+.rdv {
+	padding-left:  20px;
+	
+}
+.rdv li {
+	text-align: justify;	
+	font-size:85%;
+	font-weight: normal;
+	color: black;
+}
+
+body
+{
+	background-color: lightgray;
+}
+
+#corps
+{
+	padding-top: 100px;
+}
